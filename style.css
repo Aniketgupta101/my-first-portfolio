@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Play:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(255, 255, 255); */
+}
+
+html{
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
+body {  
+  background: rgb(0,0,153);
+  background: linear-gradient(180deg, rgba(0,0,153,1) 0%, rgba(33,98,218,1) 25%, rgb(39, 133, 227) 50%, rgba(31,94,216,1) 81%, rgba(0,0,153,1) 100%);
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+.logo{
+    position: relative;
+    width: 130px;
+    margin-top: 20px;
+    /* border: 5px solid rgb(0, 0, 0);
+    border-width: 10%;
+    border-radius: 30%; */
+}
+
+ul, nav {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Header & Navigation Bar*/
+header{
+  color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 10;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 75px 20px;
+}
+
+header nav{
+   color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-size-adjust: 20%;
+}
+
+header nav li{
+  color: #ffffff;
+    margin: 0 20px;
+    font-size: x-large;
+}
+
+header nav li u a{
+  color: #ffffff;
+}
+
+/* Section  */
+
+.section-title{
+  color: #ffffff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+    margin-right: 3%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section p{
+   color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 30px;
+    line-height: 1.3;
+    padding-left: 2%;
+}
+
+/* Home Section */
+
+.hp{
+    width: 500px;
+ 
+}
+
+.home-area{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+   padding-top: 8%;
+   padding-bottom: 5%;
+}
+
+/* .homecontent{
+    padding-left: 7rem ;
+    left: 2 rem;
+    display: flex;
+} */
+
+.home-area h1{
+    /* text-align: left; */
+    font-family: 'Arvo', serif;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.home-area li{
+    text-align: left; 
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.home-area p{
+    text-align: left;
+    font-size: xx-large;
+
+}
+
+.autotyped{
+    font-family: 'Play', sans-serif;
+    color:black;
+    font-weight: bold
+}
+
+.info{
+  padding-top: 5rem;
+}
+
+.about{
+    margin: 5rem;
+    margin-top: 0%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.skills{
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+.iconc{
+  width: 9rem;
+  padding-right: 1.8rem;
+}
+
+.iconcc{
+  padding-right: 2.8rem;
+  width: 11rem;
+}
+
+.iconhtml{
+  width: 10rem;
+  padding-right: 2.4rem;
+}
+
+.iconcss{
+  width: 9rem;
+  position: relative;
+  padding-right: 1.5rem; 
+}
+
+.iconjs{
+  width: 9.2rem;
+  padding-right: 1.2rem;
+  padding-left: 1rem;
+}
+
+.iconpython{
+  padding-left: 1.2rem;
+  padding-right: 1.8rem;
+  width: 11rem;
+}
+
+.project{
+  width: 70%;
+  margin-top: 3rem;
+  margin-left: 16rem;
+  margin-bottom: 3rem;
+  margin-right: 10rem;
+  padding: 2rem;
+  text-align: center;
+  color: #004fe2;
+  background:rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+
+.ul{
+  padding: 1rem;
+  padding-bottom: 0%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.sidelist{
+  margin: 1.2rem 1.5rem;
+}
+
+.sidelinks{
+  background-color:  rgb(39, 133, 227);
+  font-size: larger;
+  padding: 0.8rem 3rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+}
+
+.sidelinks:hover{
+  background-color: #0a4d80;
+}
+
+.form{
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+}
+.block{
+  width: 47%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin:1.5rem auto;
+  border: 20rem black;
+}
+.inputtext{
+  width: 80%;
+  padding: 1rem 2rem;
+  text-align:left;
+  color: #000000;
+  border-radius: 1rem;
+  outline: none;
+}
+.textarea{
+resize: none;
+border-radius: 1rem;
+padding: 1rem;
+color: black;
+}
+.BUTTON{
+font-size: larger;
+padding: 0.8rem 14.3rem;
+border-radius: 0.7rem;
+outline: none;
+color: #000000;
+background-color: #ffffff;
+font-family: 'Abril Fatface', cursive;
+}
+
+.socialmedia{
+margin:auto;
+padding: 5%;
+padding-left: 37%;
+padding-top: 0%;
+}
+
+.followme{
+  text-align: auto;
+  padding-bottom: 1.5rem;
+  padding-left: 2.5rem;
+  font-family: 'Crete Round', serif;
+  color: #ffffff;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+
+/* Linkedin*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  background: #56b4fc;
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b68ca;
+  color: white;
+}
+
+/* instagram*/
+.fa-instagram {
+  background: rgb(95,37,244);
+  background: linear-gradient(211deg, rgba(95,37,244,1) 0%, rgba(166,22,172,1) 17%, rgba(215,11,122,1) 40%, rgba(216,17,120,1) 49%, rgba(221,59,101,1) 60%, rgba(226,106,80,1) 74%, rgba(241,238,23,1) 97%);
+color: white;
+}
